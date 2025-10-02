@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="fade-in">Weather App</h1>
+
+        <div class="search fade-in">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="weather-card fade-in">
+            <div class="location">
+                <h2 id="city">--</h2>
+                <p id="date">--</p>
+            </div>
+            <div class="temp">
+                <img id="icon" src="" alt="weather icon">
+                <h3 id="temperature">--°C</h3>
+            </div>
+            <div class="description">
+                <p id="weather">--</p>
+                <p id="humidity">Humidity: --%</p>
+                <p id="wind">Wind: -- km/h</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
